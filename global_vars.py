@@ -22,16 +22,16 @@ def h():
 
 
 if __name__ == '__main__':
-	print('At the global level the value of a is: ', a, '\n')
+	print('At the global level the value of a is: ' + str(a) '\n')
 	
 	f()
 
-	print('\nAt the global level the value of a remains: ', a, '\n')
+	print('\nAt the global level the value of a remains: ' + str(a) + '\n')
 
 	g()
 
-	print('\nAt the global level the value of a remains: ', a, '\n')
+	print('\nAt the global level the value of a remains: ' + str(a) + '\n')
 
 	h()
 
-	print('\nAt the global level the value of a has changed to: ', a, '\n')
+	print('\nAt the global level the value of a has changed to: ' + str(a) + '\n')
