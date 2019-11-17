@@ -7,18 +7,18 @@ a = 1
 
 def f():
 	a = 2	#assignment of a creates a local variable, masking the global
-	print('f(): Local variable a created. Within function f the value of a is: ', a)
+	print('f(): Local variable a created. Within function f the value of a is: ' + str(a))
 
 
 def g():
 	#no assignment of a, the global variable a remains visible within the function
-	print('g(): No variable assignement within function g, the value of a is: ', a)
+	print('g(): No variable assignement within function g, the value of a is: ' + str(a))
 
 
 def h():
 	global a	#identify variable a within the function as a global
 	a = 3
-	print('h(): a is declared as a global variable within function h, the value of global a is:' , a)
+	print('h(): a is declared as a global variable within function h, the value of global a is:'  + str(a))
 
 
 if __name__ == '__main__':
