@@ -22,7 +22,7 @@ def h():
 
 
 if __name__ == '__main__':
-	print('At the global level the value of a is: ' + str(a) '\n')
+	print('At the global level the value of a is: ' + str(a) + '\n')
 	
 	f()
 
