@@ -1,9 +1,12 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
+"""
+Example code on use of assert statements
+"""
 from types import * 
 
 def factorial(n):
-    """Returns the factorial of n; assumes n is a positive integer."""
+    """Returns the factorial of n, a positive integer."""
     assert type(n) is IntType, 'Input is ' +\
             str(type(n)) +\
             ', input to factorial must be an integer.'
@@ -14,5 +17,5 @@ def factorial(n):
         return n * factorial(n-1)
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     pass
